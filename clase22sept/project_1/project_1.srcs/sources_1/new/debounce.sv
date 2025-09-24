@@ -30,23 +30,29 @@ module debounce
     
     logic [N-1:0] q1, q2, q3;
     logic clk_deb;
-    
+        
     freq_div #(.N(19)) U1 (.s_out(clk_deb), .clk(clk), .reset(reset));
     
-    always_ff @(posedge clk_deb)
+    always_ff @(posedge clk_deb, posedge reset)
+        if(reset)
+            q1<=0;
+        else
+            q1 <= btn;
     
-    q1 <= btn;
+    always_ff @(posedge clk_deb, posedge reset)
+        if(reset)
+            q2<=0;
+        else
+            q2 <= q1;
     
-    always_ff @(posedge clk_deb)
-    
-    q2 <= q1;
-    
-    always_ff @(posedge clk_deb)
-   
-    q3 <= q2;
+    always_ff @(posedge clk_deb, posedge reset)
+       if(reset)
+            q3<=0;
+        else
+            q3 <= q2;
     
     assign debounced = (q3 & q2 & q1);
-    assign nq3 = |debounced;
+    assign nq3 = (^q3) ;
     
     
 endmodule

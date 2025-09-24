@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+$stop called at time : 200000005 ns : File "C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sim_1/new/lock_tb.sv" Line 71
+INFO: xsimkernel Simulation Memory Usage: 19424 KB (Peak: 19424 KB), Simulation CPU Usage: 11483 ms

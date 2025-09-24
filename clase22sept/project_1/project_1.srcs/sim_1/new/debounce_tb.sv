@@ -21,6 +21,7 @@
         end
     initial
         begin
+            btn='0;
             @(negedge reset);
             btn[0]=1'b1;
             repeat(2000000) @(negedge clk);
