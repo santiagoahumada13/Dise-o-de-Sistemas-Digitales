@@ -1,8 +1,8 @@
 # Diseño de Sistemas Digitales Avanzados
-Proyectos hechos para la materia Diseño de Sistemas Digitales Avanzados
-Universidad Nacional Autónoma de México - FES Cuautitlán
-Alumno: Santiago Ahumada Sierra
-Profesor: Jose Luis Barbosa Pacheco
+Proyectos hechos para la materia Diseño de Sistemas Digitales Avanzados  
+Universidad Nacional Autónoma de México - FES Cuautitlán  
+Alumno: Santiago Ahumada Sierra  
+Profesor: Jose Luis Barbosa Pacheco  
 
 Estos proyectos son desarrollados en Systema Verilog para la tarjeta Basys 3 de DIGILENT
 https://digilent.com/reference/programmable-logic/basys-3/start
