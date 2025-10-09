@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Wed Oct  8 19:05:04 2025
+| Date         : Wed Oct  8 19:11:41 2025
 | Host         : DESKTOP-SL0FT3E running 64-bit major release  (build 9200)
 | Command      : report_utilization -file lock_utilization_synth.rpt -pb lock_utilization_synth.pb
 | Design       : lock
@@ -34,9 +34,9 @@ Table of Contents
 | Slice LUTs*             |   14 |     0 |          0 |     20800 |  0.07 |
 |   LUT as Logic          |   14 |     0 |          0 |     20800 |  0.07 |
 |   LUT as Memory         |    0 |     0 |          0 |      9600 |  0.00 |
-| Slice Registers         |   53 |     0 |          0 |     41600 |  0.13 |
-|   Register as Flip Flop |   41 |     0 |          0 |     41600 |  0.10 |
-|   Register as Latch     |   12 |     0 |          0 |     41600 |  0.03 |
+| Slice Registers         |   51 |     0 |          0 |     41600 |  0.12 |
+|   Register as Flip Flop |   40 |     0 |          0 |     41600 |  0.10 |
+|   Register as Latch     |   11 |     0 |          0 |     41600 |  0.03 |
 | F7 Muxes                |    0 |     0 |          0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |          0 |      8150 |  0.00 |
 +-------------------------+------+-------+------------+-----------+-------+
@@ -58,7 +58,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 2     |          Yes |           - |          Set |
-| 51    |          Yes |           - |        Reset |
+| 49    |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
 | 0     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
@@ -152,13 +152,14 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDCE     |   40 |        Flop & Latch |
+| FDCE     |   39 |        Flop & Latch |
 | IBUF     |   14 |                  IO |
-| LDCE     |   11 |        Flop & Latch |
-| LUT6     |   10 |                 LUT |
+| LDCE     |   10 |        Flop & Latch |
+| LUT6     |    9 |                 LUT |
 | CARRY4   |    5 |          CarryLogic |
 | OBUF     |    2 |                  IO |
 | LUT3     |    2 |                 LUT |
+| LUT5     |    1 |                 LUT |
 | LUT4     |    1 |                 LUT |
 | LUT2     |    1 |                 LUT |
 | LUT1     |    1 |                 LUT |

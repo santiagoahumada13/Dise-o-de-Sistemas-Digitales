@@ -37,7 +37,7 @@ module lock
     
     
     typedef enum {s0,s1,s2,s3,s4,
-                  err1,err2,err3,err4, inc} state_type;
+                  err1,err2,err3,err4} state_type;
                     
     state_type state_reg, state_next;
     
@@ -101,9 +101,7 @@ module lock
             
             err3: state_next=err4;
             
-            err4: state_next=inc;
-            
-            inc:if(debounced != 4'b0000)begin 
+            err4:if(debounced != 4'b0000)begin 
                 if(dig1==decod)
                     state_next=s1;
                  else
@@ -115,7 +113,7 @@ module lock
         always_comb
             if(state_reg==s4)
                 correct=1'b1;
-            else if (state_reg==inc)
+            else if (state_reg==err4)
                 incorrect=1'b1;
             else begin    
                 correct=1'b0;

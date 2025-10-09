@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Wed Oct  8 19:06:36 2025
+| Date         : Wed Oct  8 19:12:59 2025
 | Host         : DESKTOP-SL0FT3E running 64-bit major release  (build 9200)
 | Command      : report_drc -file lock_drc_opted.rpt -pb lock_drc_opted.pb -rpx lock_drc_opted.rpx
 | Design       : lock
@@ -35,12 +35,12 @@ Table of Contents
 -----------------
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
-A LUT U1/FSM_onehot_state_reg[9]_i_1 is driving clock pin of 10 cells. This could lead to large hold time violations. Involved cells are:
+A LUT U1/FSM_onehot_state_reg[8]_i_1 is driving clock pin of 9 cells. This could lead to large hold time violations. Involved cells are:
 FSM_onehot_state_reg_reg[0], FSM_onehot_state_reg_reg[1],
 FSM_onehot_state_reg_reg[2], FSM_onehot_state_reg_reg[3],
 FSM_onehot_state_reg_reg[4], FSM_onehot_state_reg_reg[5],
-FSM_onehot_state_reg_reg[6], FSM_onehot_state_reg_reg[7],
-FSM_onehot_state_reg_reg[8], FSM_onehot_state_reg_reg[9]
+FSM_onehot_state_reg_reg[6], FSM_onehot_state_reg_reg[7]
+FSM_onehot_state_reg_reg[8]
 Related violations: <none>
 
 

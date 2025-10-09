@@ -23,3 +23,12 @@
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source lock_tb.tcl
+run all
+restart
+run all
+restart
+run all
+synth_design -top lock -part xc7a35tcpg236-1 -lint 
