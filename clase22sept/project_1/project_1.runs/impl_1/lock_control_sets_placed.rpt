@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Wed Sep 24 01:05:30 2025
+| Date         : Wed Oct  8 19:06:39 2025
 | Host         : DESKTOP-SL0FT3E running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file lock_control_sets_placed.rpt
 | Design       : lock
@@ -27,7 +27,7 @@ Table of Contents
 |    Minimum number of control sets                        |     6 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    36 |
+| Unused register locations in slices containing registers |    35 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -40,12 +40,12 @@ Table of Contents
 |       Fanout       | Count |
 +--------------------+-------+
 | Total control sets |     6 |
-| >= 0 to < 4        |     4 |
+| >= 0 to < 4        |     2 |
 | >= 4 to < 6        |     0 |
 | >= 6 to < 8        |     0 |
 | >= 8 to < 10       |     0 |
-| >= 10 to < 12      |     1 |
-| >= 12 to < 14      |     0 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     1 |
 | >= 14 to < 16      |     0 |
 | >= 16              |     1 |
 +--------------------+-------+
@@ -58,8 +58,8 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               6 |            4 |
-| No           | No                    | Yes                    |              29 |            7 |
+| No           | No                    | No                     |              11 |            4 |
+| No           | No                    | Yes                    |              41 |           11 |
 | No           | Yes                   | No                     |               1 |            1 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
@@ -73,11 +73,11 @@ Table of Contents
 +-----------------------------------+---------------+----------------------------------+------------------+----------------+--------------+
 |            Clock Signal           | Enable Signal |         Set/Reset Signal         | Slice Load Count | Bel Load Count | Bels / Slice |
 +-----------------------------------+---------------+----------------------------------+------------------+----------------+--------------+
-| ~FSM_onehot_state_reg_reg_n_0_[9] |               |                                  |                1 |              1 |         1.00 |
 | ~FSM_onehot_state_reg_reg_n_0_[5] |               | FSM_onehot_state_reg_reg_n_0_[9] |                1 |              1 |         1.00 |
-| ~U1/q3[0]                         |               |                                  |                1 |              2 |         2.00 |
-|  U1/U1/out[0]                     |               |                                  |                2 |              3 |         1.50 |
-| ~U1/q3[0]                         |               | reset_IBUF                       |                2 |             10 |         5.00 |
+| ~FSM_onehot_state_reg_reg_n_0_[9] |               |                                  |                1 |              1 |         1.00 |
+|  U1/CLK                           |               | reset_IBUF                       |                3 |             10 |         3.33 |
+|  U1/E[0]                          |               |                                  |                3 |             10 |         3.33 |
+|  U1/U1/out[0]                     |               | reset_IBUF                       |                3 |             12 |         4.00 |
 |  clk_IBUF_BUFG                    |               | reset_IBUF                       |                5 |             19 |         3.80 |
 +-----------------------------------+---------------+----------------------------------+------------------+----------------+--------------+
 

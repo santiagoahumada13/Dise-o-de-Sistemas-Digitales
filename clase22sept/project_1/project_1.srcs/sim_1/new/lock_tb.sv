@@ -36,13 +36,15 @@ always
         end 
     initial
         begin   
+            reset=1'b0;
+            #(T/2);
             reset=1'b1;
             #(T/2);
             reset=1'b0;
         end
     initial
         begin
-            dig1=2'b11;
+            dig1=2'b00;
             dig2=2'b10;
             dig3=2'b01;
             dig4=2'b10;
@@ -50,9 +52,9 @@ always
             @(negedge reset);
             btn='0;
             repeat(2000000) @(negedge clk);
-            btn[3]=1'b1;
+            btn[0]=1'b1;
             repeat(2000000) @(negedge clk);
-            btn[3]=1'b0;
+            btn[0]=1'b0;
             repeat(2000000) @(negedge clk);
             btn[2]=1'b1;
             repeat(2000000) @(negedge clk);

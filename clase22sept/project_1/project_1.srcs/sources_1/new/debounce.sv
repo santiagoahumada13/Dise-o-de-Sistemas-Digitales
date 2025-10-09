@@ -51,8 +51,8 @@ module debounce
         else
             q3 <= q2;
     
-    assign debounced = (q3 & q2 & q1);
-    assign nq3 = (^q3) ;
+    assign debounced = q3;
+    assign nq3 = ~(|q3) ;
     
     
 endmodule

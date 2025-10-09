@@ -1,20 +1,35 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="8092" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="10016" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="3648" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="16224" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="12304" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="19920" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="15880" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="12404" HostCore="8" HostMemory="016822579200">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="18264" HostCore="8" HostMemory="016822579200">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="13464" HostCore="8" HostMemory="016822579200">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="8448" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
