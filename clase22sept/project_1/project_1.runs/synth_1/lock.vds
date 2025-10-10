@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Wed Oct  8 19:11:06 2025
-# Process ID         : 8092
+# Start of session at: Thu Oct  9 19:36:27 2025
+# Process ID         : 24736
 # Current directory  : C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.runs/synth_1
 # Command line       : vivado.exe -log lock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lock.tcl
 # Log file           : C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.runs/synth_1/lock.vds
@@ -19,7 +19,7 @@
 # Host memory        : 16822 MB
 # Swap memory        : 1073 MB
 # Total Virtual      : 17896 MB
-# Available Virtual  : 4495 MB
+# Available Virtual  : 7354 MB
 #-----------------------------------------------------------
 source lock.tcl -notrace
 Command: read_checkpoint -auto_incremental -incremental {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/utils_1/imports/synth_1/lock.dcp}
@@ -34,9 +34,9 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 15460
+INFO: [Synth 8-7075] Helper process launched with PID 16264
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1185.707 ; gain = 494.441
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1185.586 ; gain = 494.121
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'lock' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/debounce.sv:22]
@@ -45,23 +45,34 @@ INFO: [Synth 8-6157] synthesizing module 'freq_div' [C:/Users/santiago/Desktop/D
 	Parameter N bound to: 19 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'freq_div' (0#1) [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/freq_div.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'debounce' (0#1) [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/debounce.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'disp_mux' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/imports/new/disp_mux.sv:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/imports/new/disp_mux.sv:45]
+INFO: [Synth 8-6155] done synthesizing module 'disp_mux' (0#1) [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/imports/new/disp_mux.sv:23]
+WARNING: [Synth 8-689] width (6) of port connection 'hex0' does not match port width (5) of module 'disp_mux' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:35]
+WARNING: [Synth 8-689] width (6) of port connection 'hex1' does not match port width (5) of module 'disp_mux' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:35]
+WARNING: [Synth 8-689] width (6) of port connection 'hex2' does not match port width (5) of module 'disp_mux' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:35]
+WARNING: [Synth 8-689] width (6) of port connection 'hex3' does not match port width (5) of module 'disp_mux' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:35]
+WARNING: [Synth 8-689] width (7) of port connection 'seg' does not match port width (8) of module 'disp_mux' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:35]
 INFO: [Synth 8-6155] done synthesizing module 'lock' (0#1) [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:23]
-WARNING: [Synth 8-87] always_comb on 'state_next_reg' did not result in combinational logic [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:69]
-WARNING: [Synth 8-87] always_comb on 'correct_reg' did not result in combinational logic [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:115]
-WARNING: [Synth 8-87] always_comb on 'incorrect_reg' did not result in combinational logic [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:117]
+WARNING: [Synth 8-87] always_comb on 'state_next_reg' did not result in combinational logic [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:78]
+WARNING: [Synth 8-87] always_comb on 'hex0_reg' did not result in combinational logic [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:35]
+WARNING: [Synth 8-87] always_comb on 'correct_reg' did not result in combinational logic [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:128]
+WARNING: [Synth 8-87] always_comb on 'incorrect_reg' did not result in combinational logic [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:134]
+WARNING: [Synth 8-3848] Net dp in module/entity lock does not have driver. [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:29]
+WARNING: [Synth 8-7129] Port dp in module lock is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1291.125 ; gain = 599.859
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1292.059 ; gain = 600.594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1291.125 ; gain = 599.859
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1292.059 ; gain = 600.594
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1291.125 ; gain = 599.859
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1292.059 ; gain = 600.594
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1291.125 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1292.059 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -72,33 +83,33 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/lock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1340.879 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1356.957 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1340.879 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1356.957 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1340.879 ; gain = 649.613
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1356.957 ; gain = 665.492
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1340.879 ; gain = 649.613
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1356.957 ; gain = 665.492
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1340.879 ; gain = 649.613
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1356.957 ; gain = 665.492
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'lock'
-WARNING: [Synth 8-327] inferring latch for variable 'correct_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:115]
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_state_next_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:69]
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:69]
+WARNING: [Synth 8-327] inferring latch for variable 'correct_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:128]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_state_next_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:78]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:78]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -113,10 +124,11 @@ WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' 
                       s4 |                        100000000 | 00000000000000000000000000000100
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'lock'
-WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:69]
-WARNING: [Synth 8-327] inferring latch for variable 'incorrect_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:117]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_state_next_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:78]
+WARNING: [Synth 8-327] inferring latch for variable 'incorrect_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:134]
+WARNING: [Synth 8-327] inferring latch for variable 'hex0_reg' [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv:35]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1340.879 ; gain = 649.613
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1356.957 ; gain = 665.492
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -128,9 +140,14 @@ Detailed RTL Component Info :
 	   9 Input   32 Bit        Muxes := 1     
 	   9 Input    9 Bit        Muxes := 1     
 	   2 Input    9 Bit        Muxes := 6     
+	   4 Input    5 Bit        Muxes := 1     
+	   3 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 4     
+	   4 Input    4 Bit        Muxes := 1     
 	   4 Input    2 Bit        Muxes := 1     
-	   9 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 1     
 	   2 Input    1 Bit        Muxes := 14    
+	   9 Input    1 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -147,26 +164,43 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port dp in module lock is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (hex0_reg[3]) is unused and will be removed from module lock.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1345.875 ; gain = 654.609
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1356.957 ; gain = 665.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|disp_mux    | seg        | 32x7          | LUT            | 
+|lock        | U2/seg     | 32x7          | LUT            | 
++------------+------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1504.172 ; gain = 812.906
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1504.633 ; gain = 813.168
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1504.172 ; gain = 812.906
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1504.973 ; gain = 813.508
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1514.270 ; gain = 823.004
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1515.035 ; gain = 823.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -184,37 +218,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1749.031 ; gain = 1057.766
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1749.715 ; gain = 1058.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1749.031 ; gain = 1057.766
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1749.715 ; gain = 1058.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1749.031 ; gain = 1057.766
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1749.715 ; gain = 1058.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1749.031 ; gain = 1057.766
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1749.715 ; gain = 1058.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1749.031 ; gain = 1057.766
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1749.715 ; gain = 1058.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1749.031 ; gain = 1057.766
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1749.715 ; gain = 1058.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -231,45 +265,48 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |     5|
-|3     |LUT1   |     3|
-|4     |LUT2   |     1|
-|5     |LUT3   |     2|
-|6     |LUT4   |     1|
-|7     |LUT5   |     1|
+|2     |CARRY4 |    10|
+|3     |LUT1   |     4|
+|4     |LUT2   |     5|
+|5     |LUT3   |     3|
+|6     |LUT4   |     3|
+|7     |LUT5   |    10|
 |8     |LUT6   |     9|
-|9     |FDCE   |    39|
+|9     |FDCE   |    57|
 |10    |FDPE   |     1|
 |11    |LD     |    10|
-|12    |LDP    |     1|
-|13    |IBUF   |    14|
-|14    |OBUF   |     2|
+|12    |LDC    |     1|
+|13    |LDP    |     1|
+|14    |IBUF   |    14|
+|15    |OBUF   |    13|
+|16    |OBUFT  |     1|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1749.031 ; gain = 1057.766
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1749.715 ; gain = 1058.250
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1749.031 ; gain = 1008.012
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1749.031 ; gain = 1057.766
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1749.715 ; gain = 993.352
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1749.715 ; gain = 1058.250
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1758.176 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1757.438 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1761.867 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 3 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1760.898 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 11 instances were transformed.
+  A total of 12 instances were transformed.
   LD => LDCE: 9 instances
   LD => LDCE (inverted pins: G): 1 instance 
+  LDC => LDCE (inverted pins: G): 1 instance 
   LDP => LDPE (inverted pins: G): 1 instance 
 
-Synth Design complete | Checksum: 2be460a0
+Synth Design complete | Checksum: caccd617
 INFO: [Common 17-83] Releasing license: Synthesis
-29 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+32 Infos, 20 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1761.867 ; gain = 1257.074
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1761.867 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1760.898 ; gain = 1255.848
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1760.898 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.runs/synth_1/lock.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file lock_utilization_synth.rpt -pb lock_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Oct  8 19:11:41 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  9 19:37:03 2025...

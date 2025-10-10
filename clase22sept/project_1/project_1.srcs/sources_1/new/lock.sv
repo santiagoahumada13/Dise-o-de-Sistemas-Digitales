@@ -26,14 +26,23 @@ module lock
         input logic [1:0] dig1,dig2,dig3,dig4,
         input logic [N-1:0] btn,
         input logic clk, reset,
-        output logic correct, incorrect
+        output logic correct, incorrect, dp,
+        output logic [6:0] seg,
+        output logic [3:0] an        
     );
     
     debounce #(.N(N)) U1 (.*);
+    disp_mux U2 (.*);
+    
+    
     logic nq3;
     logic [N-1:0] debounced;
     logic [1:0] decod;
     
+    logic [3:0] dp_in;    
+    logic [5:0] hex0, hex1, hex2, hex3;
+    
+    assign dp_in = 4'b1111;
     
     
     typedef enum {s0,s1,s2,s3,s4,
@@ -111,11 +120,24 @@ module lock
         endcase
         
         always_comb
-            if(state_reg==s4)
+            if(state_reg==s4)begin
+                hex3=5'b10001;
+                hex2=5'b01010;
+                hex1=5'b00101;
+                hex0=5'b00101;
                 correct=1'b1;
-            else if (state_reg==err4)
+                end
+            else if (state_reg==err4)begin
+                hex3=5'b01110;
+                hex2=5'b10000;
+                hex1=5'b10000;
                 incorrect=1'b1;
-            else begin    
+                end
+            else begin
+                hex3=5'b10010;
+                hex2=5'b10010;
+                hex1=5'b10010;
+                hex0=5'b10010;    
                 correct=1'b0;
                 incorrect=1'b0;
             end

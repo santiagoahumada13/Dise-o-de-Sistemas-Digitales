@@ -58,11 +58,7 @@ if {$::dispatch::connected} {
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 2
 set_param general.usePosixSpawnForFork 1
-set_param synth.incrementalSynthesisCache C:/Users/santiago/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-3496-DESKTOP-SL0FT3E/incrSyn
-set_param checkpoint.writeSynthRtdsInDcp 1
 set_param xicom.use_bs_reader 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -81,6 +77,7 @@ OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
   {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/debounce.sv}
+  {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/imports/new/disp_mux.sv}
   {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/freq_div.sv}
   {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase22sept/project_1/project_1.srcs/sources_1/new/lock.sv}
 }

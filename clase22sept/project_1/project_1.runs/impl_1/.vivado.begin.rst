@@ -1,50 +1,60 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="10016" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="24816" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="16224" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="3952" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="19920" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="10424" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="12404" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="4804" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="18264" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="12064" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="13464" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="12224" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="8448" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="13792" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="7524" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="3696" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="14972" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="19484" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="14296" HostCore="8" HostMemory="016822579200">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="3204" HostCore="8" HostMemory="016822579200">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="18944" HostCore="8" HostMemory="016822579200">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="santiago" Host="DESKTOP-SL0FT3E" Pid="15088" HostCore="8" HostMemory="016822579200">
     </Process>
 </ProcessHandle>
