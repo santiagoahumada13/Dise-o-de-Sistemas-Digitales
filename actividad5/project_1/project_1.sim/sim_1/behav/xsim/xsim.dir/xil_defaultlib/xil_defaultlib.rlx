@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_1/project_1.srcs/sim_1/new/edg_mealy_tb.sv,1760301806,systemVerilog,,,,edge_mealy_tb,,uvm,../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_1/project_1.srcs/sim_1/new/edge_detect_tb.sv,1760304197,systemVerilog,,,,edge_detect_tb,,uvm,../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_1/project_1.srcs/sources_1/imports/Diseno de Sistemas Digitales/edge_detect_mealy.sv,1760300327,systemVerilog,,C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_1/project_1.srcs/sources_1/imports/Diseno de Sistemas Digitales/edge_detect_moore.sv,,edge_detect_mealy,,uvm,../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_1/project_1.srcs/sources_1/imports/Diseno de Sistemas Digitales/edge_detect_moore.sv,1760300328,systemVerilog,,C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_1/project_1.srcs/sources_1/new/edge_detect_top.sv,,edge_detect_moore,,uvm,../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_1/project_1.srcs/sources_1/new/edge_detect_top.sv,1760302125,systemVerilog,,C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_1/project_1.srcs/sim_1/new/edge_detect_tb.sv,,edge_detect_top,,uvm,../../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,

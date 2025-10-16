@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Oct 16 01:07:17 2025
+# Process ID         : 2572
+# Current directory  : C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_2/project_2.runs/synth_1
+# Command line       : vivado.exe -log debounce_count_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source debounce_count_top.tcl
+# Log file           : C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_2/project_2.runs/synth_1/debounce_count_top.vds
+# Journal file       : C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad5/project_2/project_2.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-SL0FT3E
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16822 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 17896 MB
+# Available Virtual  : 7231 MB
+#-----------------------------------------------------------
+source debounce_count_top.tcl -notrace
