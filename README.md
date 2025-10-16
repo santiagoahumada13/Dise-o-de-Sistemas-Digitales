@@ -12,3 +12,9 @@ https://digilent.com/reference/programmable-logic/basys-3/start
 ## Actividad 4. Bloqueo con código de 4 digitos.
 Se encuentra en la carpeta ./clase22sept/
 ## Clase 24 de Septiembre. Contador 2^16 en display de 7 segmentos de 4 digitos
+
+# Actividad 5. Ánalisis de resultados de un detector de flancos y un sistema antirebote.
+
+La carpeta actividad5/project1/ corresponde al ánalisis del detector de flancos con su respectiva simulación
+
+La carpeta actividad5/project2/ corresponde a la implementación de un sistema anti-rebote y la comparación de los pulsos generado por un detector de flancos FSM tipo Mealy.
