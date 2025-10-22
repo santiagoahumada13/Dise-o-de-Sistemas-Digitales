@@ -56,6 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 2
 set_param general.usePosixSpawnForFork 1
 set_param synth.incrementalSynthesisCache C:/Users/santiago/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-8148-DESKTOP-SL0FT3E/incrSyn
 set_param checkpoint.writeSynthRtdsInDcp 1

@@ -1,1 +1,0 @@
-set_property SRC_FILE_INFO {cfile:{C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad6/project_1/project_1.srcs/constrs_1/imports/xdc files/Basys-3-Master.xdc} rfile:{../../../../../project_1.srcs/constrs_1/imports/xdc files/Basys-3-Master.xdc} id:1} [current_design]
