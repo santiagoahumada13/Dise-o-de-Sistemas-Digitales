@@ -80,6 +80,9 @@ OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
   {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad6/project_1/project_1.srcs/sources_1/new/comp.sv}
   {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad6/project_1/project_1.srcs/sources_1/new/control_unit.sv}
+  {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad6/project_1/project_1.srcs/sources_1/imports/Diseno de Sistemas Digitales/debouncing.sv}
+  {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad6/project_1/project_1.srcs/sources_1/imports/Diseno de Sistemas Digitales/clase24sept/project_1/project_1.srcs/sources_1/new/disp_mux.sv}
+  {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad6/project_1/project_1.srcs/sources_1/imports/Diseno de Sistemas Digitales/edge_detect_mealy.sv}
   {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad6/project_1/project_1.srcs/sources_1/imports/new/register.sv}
   {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad6/project_1/project_1.srcs/sources_1/new/subs.sv}
   {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad6/project_1/project_1.srcs/sources_1/new/gdc_top.sv}
