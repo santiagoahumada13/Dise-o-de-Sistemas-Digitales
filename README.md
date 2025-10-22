@@ -4,7 +4,7 @@ Universidad Nacional Autónoma de México - FES Cuautitlán
 Alumno: Santiago Ahumada Sierra  
 Profesor: Jose Luis Barbosa Pacheco  
 
-Estos proyectos son desarrollados en Systema Verilog para la tarjeta Basys 3 de DIGILENT
+Estos proyectos son desarrollados en System Verilog para la tarjeta Basys 3 de DIGILENT
 https://digilent.com/reference/programmable-logic/basys-3/start
 
 ## Actividad 3. Sumador de punto flotante.
@@ -18,3 +18,7 @@ Se encuentra en la carpeta ./clase22sept/
 La carpeta actividad5/project1/ corresponde al ánalisis del detector de flancos con su respectiva simulación
 
 La carpeta actividad5/project2/ corresponde a la implementación de un sistema anti-rebote y la comparación de los pulsos generado por un detector de flancos FSM tipo Mealy.
+
+# Actividad 6. Cálculo del máximo común divisor de dos números de ocho bits
+
+El resultado se muestra en los display de 7 segmentos de la tarjeta y se introducen los datos mediante los 16 switches.
