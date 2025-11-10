@@ -1,0 +1,17 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot padovan_tb_behav xil_defaultlib.padovan_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3818] variable 'done_f' is driven by invalid combination of procedural drivers [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad7y8/project_1/project_1.srcs/sources_1/new/padovan.sv:27]
+WARNING: [VRFC 10-2921] 'done_f' driven by this always_ff block should not be driven by any other process [C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad7y8/project_1/project_1.srcs/sources_1/new/padovan.sv:36]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.padovan
+Compiling module xil_defaultlib.padovan_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot padovan_tb_behav
