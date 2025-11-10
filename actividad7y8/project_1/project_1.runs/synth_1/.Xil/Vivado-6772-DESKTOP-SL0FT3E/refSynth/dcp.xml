@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Checkpoint Version="24" Minor="0">
+	<BUILD_NUMBER Name="6140274"/>
+	<FULL_BUILD Name="SW Build 6140274 on Thu May 22 00:12:29 MDT 2025"/>
+	<PRODUCT Name="Vivado v2025.1 (64-bit)"/>
+	<Part Name="xc7a35tcpg236-1"/>
+	<FeatureSet Name="FeatureSet_Classic"/>
+	<NEXTGEN_VERSAL Name="0"/>
+	<BoardPart Name="digilentinc.com:basys3:part0:1.2"/>
+	<Top Name="padovan"/>
+	<DisableAutoIOBuffers Name="0"/>
+	<OutOfContext Name="0"/>
+	<MacroLevel Name="1"/>
+	<RunGenerated Name="1"/>
+	<HDPlatform Name="0"/>
+	<File Type="VERILOG_STUB" Name="padovan_stub.v" ModTime="1762741132"/>
+	<File Type="VHDL_STUB" Name="padovan_stub.vhdl" ModTime="1762741132"/>
+	<File Type="PARAMXML" Name="padovan_param.xml" ModTime="1762741132"/>
+	<File Type="PARAMXML" Name="padovan_param.xml" ModTime="1762741132"/>
+	<File Type="XN" Name="padovan.xn" ModTime="1762741132"/>
+	<File Type="SHAPE" Name="padovan.shape" ModTime="1762741132"/>
+	<File Type="EDIF" Name="padovan.edf" ModTime="1762741132"/>
+	<File Type="INCR" Name="padovan.incr" ModTime="1762741132"/>
+	<File Type="RDA" Name="padovan.rda" ModTime="1762741132"/>
+	<File Type="JSON_RDA" Name="padovan_rda.json" ModTime="1762741132"/>
+	<File Type="WDF" Name="padovan.wdf" ModTime="1762741132"/>
+	<File Type="SYNTH" Name="padovan.synth" ModTime="1762741132"/>
+</Checkpoint>
+

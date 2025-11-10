@@ -93,7 +93,7 @@ module top_level(
                 tx_data =res_reg [15:8];
                 if(tdre)begin
                     tx_ready=1'b1;
-                    state_next_send_l;
+                    state_next=send_l;
                     end
                 end             
             send_l: begin
