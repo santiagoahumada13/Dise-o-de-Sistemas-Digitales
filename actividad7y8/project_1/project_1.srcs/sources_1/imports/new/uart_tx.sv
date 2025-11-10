@@ -22,7 +22,7 @@
 
 module uart_tx
     (
-       input logic clk, clr, ready, b_sel,
+       input logic clk, clr, ready,
        input logic [7:0] tx_data,
        output logic TxD, tdre 
     );

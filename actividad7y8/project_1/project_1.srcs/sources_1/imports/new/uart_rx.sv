@@ -61,8 +61,8 @@
                             FE<=1'b1;
                         end          
                 endcase
-            end     
-        
+            end
+            
         always_comb 
         case(state_reg)
             mark: if(~RxD)
@@ -91,4 +91,8 @@
                 state_next=mark;
        
         endcase
+        
+        always_comb
+        if(rdrf_clr)
+            rdrf=1'b0;
     endmodule
