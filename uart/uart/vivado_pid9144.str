@@ -5,11 +5,11 @@ SW Build: 6140274 on Thu May 22 00:12:29 MDT 2025
 IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
 IP Build: 6138677 on Thu May 22 03:10:11 MDT 2025
 
-Process ID (PID): 19876
+Process ID (PID): 9144
 License: Customer
 Mode: GUI Mode
 
-Current time: 	Sun Nov 09 18:34:34 CST 2025
+Current time: 	Tue Nov 25 17:15:45 CST 2025
 Time zone: 	Central Standard Time (America/Mexico_City)
 
 OS: Windows 11
@@ -21,8 +21,8 @@ Screen size: 1920x1080
 Local screen bounds: x = 0, y = 0, width = 1920, height = 1080
 Screen resolution (DPI): 100
 Available screens: 1
-Default font: family=Dialog,name=Dialog,style=plain,size=12
-Scale size: 12
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
 OS font scaling: 100%
 Anti-Alias Enabled: false
 
@@ -52,7 +52,7 @@ Vivado layouts directory: C:/Users/santiago/AppData/Roaming/Xilinx/Vivado/2025.1
 PlanAhead jar file: 	C:/Xilinx/2025.1/Vivado/lib/classes/planAhead.jar
 Vivado log file: 	C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/vivado.log
 Vivado journal file: 	C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/vivado.jou
-Engine tmp dir: 	C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/.Xil/Vivado-19876-DESKTOP-SL0FT3E
+Engine tmp dir: 	C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/.Xil/Vivado-9144-DESKTOP-SL0FT3E
 Non-Default Parameters:	[]
 
 Xilinx & AMD Environment Variables
@@ -60,7 +60,7 @@ Xilinx & AMD Environment Variables
 JAVA_HOME: C:\Program Files\Microsoft\jdk-21.0.8.9-hotspot\
 LEVEL_ZERO_V1_SDK_PATH: C:\Program Files\LevelZeroSDK\1.24.0\
 RDI_APPROOT: C:/Xilinx/2025.1/Vivado
-RDI_ARGS:  -gui_launcher_event rodinguilauncherevent23308 "C:\Users\santiago\Desktop\Diseno de Sistemas Digitales\uart\uart\uart.xpr"
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent10328 "C:\Users\santiago\Desktop\Diseno de Sistemas Digitales\uart\uart\uart.xpr"
 RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
 RDI_BASEROOT: C:/Xilinx/2025.1
 RDI_BINDIR: C:/Xilinx/2025.1/Vivado/bin
@@ -88,7 +88,7 @@ RDI_PYTHON3_VERSION: 3.13.0
 RDI_PYTHONHOME: C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0
 RDI_PYTHONPATH: C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0;C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\bin;C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\lib;C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\lib\site-packages
 RDI_PYTHON_LD_LIBPATH: C:/Xilinx/2025.1/Vivado\tps\win64\python-3.13.0\lib
-RDI_SESSION_INFO: C:\Users\santiago\Desktop\DisenodeSistemasDigitales\uart\uart:DESKTOP-SL0FT3E-09-11-2025_18-34-08.90
+RDI_SESSION_INFO: C:\Users\santiago\Desktop\DisenodeSistemasDigitales\uart\uart:DESKTOP-SL0FT3E-25-11-2025_17-15-29.62
 RDI_SHARED_DATA: C:/Xilinx/SharedData/2025.1/data
 RDI_TPS_ROOT: C:/Xilinx/2025.1/Vivado/tps/win64
 RDI_USE_JDK21: True
@@ -106,7 +106,7 @@ _RDI_CWD: C:\Users\santiago\Desktop\Diseno de Sistemas Digitales\uart\uart
 
 GUI allocated memory:	812 MB
 GUI max memory:		6,144 MB
-Engine allocated memory: 805 MB
+Engine allocated memory: 884 MB
 
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
@@ -118,13 +118,15 @@ Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // TclEventType: PROJECT_OPEN_DIALOG
 // Opening Vivado Project: C:\Users\santiago\Desktop\Diseno de Sistemas Digitales\uart\uart\uart.xpr. Version: Vivado v2025.1 
 // TclEventType: DEBUG_PROBE_SET_CHANGE
-// TclEventType: FLOW_ADDED
 // Tcl Message: open_project {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/uart.xpr} 
-// HMemoryUtils.trashcanNow. Engine heap size: 833 MB. GUI used memory: 65 MB. Current time: 11/9/25, 6:34:35 PM CST
+// TclEventType: FLOW_ADDED
 // TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 921 MB. GUI used memory: 71 MB. Current time: 11/25/25, 5:15:46 PM CST
 // TclEventType: FILE_SET_CHANGE
 // TclEventType: FILE_SET_NEW
 // TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
 // TclEventType: PROJECT_DASHBOARD_NEW
 // TclEventType: PROJECT_DASHBOARD_GADGET_NEW
 // TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
@@ -142,9 +144,10 @@ Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // Tcl Message: open_project {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/uart.xpr} 
 // Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/uart.gen/sources_1'. 
 // Tcl Message: Scanning sources... Finished scanning sources 
-// Tcl Message: INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
 // TclEventType: PROJECT_NEW
-// [GUI Memory]: 112 MB (+115343kb) [00:00:19]
-// [Engine Memory]: 963 MB (+858372kb) [00:00:19]
-// WARNING: HEventQueue.dispatchEvent() is taking  2449 ms.
+// [GUI Memory]: 123 MB (+126780kb) [00:00:15]
+// [Engine Memory]: 965 MB (+860346kb) [00:00:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  2655 ms.
 // Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'. 

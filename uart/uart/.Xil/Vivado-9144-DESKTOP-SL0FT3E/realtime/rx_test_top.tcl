@@ -16,7 +16,7 @@ set rt::rc [catch {
     set rt::cmdEcho 0
     rt::set_parameter writeXmsg true
     rt::set_parameter enableParallelHelperSpawn true
-    set ::env(RT_TMP) "C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/.Xil/Vivado-19876-DESKTOP-SL0FT3E/realtime/tmp"
+    set ::env(RT_TMP) "C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/.Xil/Vivado-9144-DESKTOP-SL0FT3E/realtime/tmp"
     if { [ info exists ::env(RT_TMP) ] } {
       file delete -force $::env(RT_TMP)
       file mkdir $::env(RT_TMP)
@@ -41,11 +41,16 @@ set rt::rc [catch {
     rt::set_parameter singleFileBasedDefaultNettype false
     set rt::useElabCache false
     if {$rt::useElabCache == false} {
-      rt::read_verilog -sv -include C:/Xilinx/2025.1/Vivado/data/rsb/busdef {{C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/actividad7y8/project_1/project_1.srcs/sources_1/new/moser.sv}}
+      rt::read_verilog -sv -include C:/Xilinx/2025.1/Vivado/data/rsb/busdef {
+      {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/clase24sept/project_1/project_1.srcs/sources_1/new/disp_mux.sv}
+      {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/uart.srcs/sources_1/new/rx_test.sv}
+      {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/uart.srcs/sources_1/new/uart_rx.sv}
+      {C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/uart.srcs/sources_1/new/rx_test_top.sv}
+    }
       rt::filesetChecksum
     }
     rt::set_parameter usePostFindUniquification false
-    set rt::top moser
+    set rt::top rx_test_top
     rt::set_parameter enableIncremental true
     rt::set_parameter markDebugPreservationLevel "enable"
     set rt::reportTiming false
@@ -65,7 +70,7 @@ set rt::rc [catch {
     rt::set_parameter webTalkPath {}
     rt::set_parameter synthDebugLog false
     rt::set_parameter printModuleName false
-    rt::set_parameter enableSplitFlowPath "C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/.Xil/Vivado-19876-DESKTOP-SL0FT3E/"
+    rt::set_parameter enableSplitFlowPath "C:/Users/santiago/Desktop/Diseno de Sistemas Digitales/uart/uart/.Xil/Vivado-9144-DESKTOP-SL0FT3E/"
     set ok_to_delete_rt_tmp true 
     if { [rt::get_parameter parallelDebug] } { 
        set ok_to_delete_rt_tmp false 
