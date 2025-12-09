@@ -1,5 +1,5 @@
 # Diseño de Sistemas Digitales Avanzados
-Proyectos hechos para la materia Diseño de Sistemas Digitales Avanzados, Semestre 2026-I
+Proyectos hechos para la materia Diseño de Sistemas Digitales Avanzados, Semestre 2026-I  
 **Universidad Nacional Autónoma de México - FES Cuautitlán**  
 Alumno: Santiago Ahumada Sierra  
 Profesor: Jose Luis Barbosa Pacheco  
