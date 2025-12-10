@@ -1,7 +1,0 @@
-Running: xsim.dir/moser_tb_behav/xsimk.exe -simmode gui -wdb moser_tb_behav.wdb -simrunnum 0 -socket 52710
-Design successfully loaded
-Design Loading Memory Usage: 10732 KB (Peak: 10732 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 11560 KB (Peak: 11560 KB)
-Simulation CPU Usage: 62 ms
