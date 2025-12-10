@@ -22,8 +22,8 @@ La carpeta actividad5/project2/ corresponde a la implementación de un sistema a
 ## Actividad 6. Cálculo del máximo común divisor de dos números de ocho bits
 
 El resultado se muestra en los display de 7 segmentos de la tarjeta y se introducen los datos mediante los 16 switches.  
-##UART
+## UART
 Interfaz de transmisión y recepción serial con modulos de prueba  
-##Actividad 7 y 8  
+## Actividad 7 y 8  
 Sistema de calculo de las secuencias Moser y Padovan, cuyo valor de n y resultados se envían mediante la interfaz UART previamente diseñada
 
