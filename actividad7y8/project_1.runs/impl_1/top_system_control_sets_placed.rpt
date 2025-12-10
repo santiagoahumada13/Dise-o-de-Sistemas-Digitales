@@ -1,0 +1,129 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Tue Dec  9 20:43:58 2025
+| Host         : DESKTOP-SL0FT3E running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_system_control_sets_placed.rpt
+| Design       : top_system
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    51 |
+|    Minimum number of control sets                        |    51 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   121 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    51 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |    23 |
+| >= 6 to < 8        |     6 |
+| >= 8 to < 10       |     6 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    15 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              21 |           11 |
+| No           | No                    | Yes                    |              33 |           16 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |             104 |           20 |
+| Yes          | No                    | Yes                    |             510 |          103 |
+| Yes          | Yes                   | No                     |             347 |          109 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------+--------------------------------+--------------------------------+------------------+----------------+--------------+
+|                Clock Signal                |          Enable Signal         |        Set/Reset Signal        | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------------------------+--------------------------------+--------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG                             | U_TX/TxD_i_1_n_0               | clr_IBUF                       |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[128]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[116]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_MOSER/pow_4[0]_i_1_n_0       |                                |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[68]         | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[120]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[64]         | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[112]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[96]         | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[100]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[132]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[76]         | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[80]         | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[88]         | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[124]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[140]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[104]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[136]        | clr_IBUF                       |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[92]         | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[72]         | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[84]         | clr_IBUF                       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[108]        | clr_IBUF                       |                2 |              4 |         2.00 |
+|  U_RX/FSM_onehot_state_next_reg[4]_i_2_n_0 |                                |                                |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG                             | U_TX/txbuff[6]_i_1_n_0         |                                |                2 |              5 |         2.50 |
+|  clk_IBUF_BUFG                             | U_RX/bit_count[7]_i_2_n_0      | U_RX/bit_count[7]_i_1__0_n_0   |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG                             | digit_idx[5]_i_1_n_0           | clr_IBUF                       |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/sh_next              | clr_IBUF                       |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG                             | U_TX/bit_count[7]_i_1_n_0      |                                |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG                             | U_WELCOME/char_out[6]_i_1_n_0  | clr_IBUF                       |                5 |              7 |         1.40 |
+|  clk_IBUF_BUFG                             | U_WELCOME/idx                  | clr_IBUF                       |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG                             | U_PARSER/op_sel_out_reg_4[0]   | clr_IBUF                       |                4 |              8 |         2.00 |
+|  clk_IBUF_BUFG                             | U_RX/rx_data[7]_i_1_n_0        |                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                             | U_RX/rxbuff[7]_i_1_n_0         |                                |                1 |              8 |         8.00 |
+|  clk_IBUF_BUFG                             | U_RX/E[0]                      | clr_IBUF                       |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                             | U_RX/rdrf_reg_0[0]             | clr_IBUF                       |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                             | U_MOSER/n_buff[7]_i_1_n_0      |                                |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                             |                                |                                |                9 |             16 |         1.78 |
+|  clk_IBUF_BUFG                             | U_TX/baud_count[15]_i_2_n_0    | U_TX/baud_count[15]_i_1__0_n_0 |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG                             | U_RX/baud_count[15]_i_2__0_n_0 | U_RX/baud_count[15]_i_1_n_0    |                5 |             16 |         3.20 |
+|  clk_IBUF_BUFG                             | U_PARSER/n_out[7]_i_1_n_0      | clr_IBUF                       |                6 |             17 |         2.83 |
+|  clk_IBUF_BUFG                             | U_WELCOME/safe_wait            | clr_IBUF                       |               10 |             24 |         2.40 |
+|  clk_IBUF_BUFG                             | delay_counter[0]_i_1_n_0       | clr_IBUF                       |                6 |             24 |         4.00 |
+|  clk_IBUF_BUFG                             | U_MOSER/pow_4[0]_i_1_n_0       | U_MOSER/pow_4[62]_i_1_n_0      |                6 |             32 |         5.33 |
+|  clk_IBUF_BUFG                             |                                | clr_IBUF                       |               16 |             33 |         2.06 |
+|  clk_IBUF_BUFG                             | U_PADOVAN/res[63]_i_2_n_0      | U_PADOVAN/res[63]_i_1_n_0      |               17 |             63 |         3.71 |
+|  clk_IBUF_BUFG                             | U_PADOVAN/done_f_reg_0[0]      | clr_IBUF                       |                9 |             64 |         7.11 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/bcd_next[63]         | clr_IBUF                       |               17 |             64 |         3.76 |
+|  clk_IBUF_BUFG                             | U_MOSER/res[63]_i_1__0_n_0     |                                |                9 |             64 |         7.11 |
+|  clk_IBUF_BUFG                             | U_MOSER/res_buff[63]_i_2_n_0   | U_MOSER/res_buff[63]_i_1_n_0   |               16 |             64 |         4.00 |
+|  clk_IBUF_BUFG                             | U_BCDCONV/E[0]                 | clr_IBUF                       |               16 |             80 |         5.00 |
+|  clk_IBUF_BUFG                             | U_PADOVAN/E[0]                 | clr_IBUF                       |               38 |            256 |         6.74 |
++--------------------------------------------+--------------------------------+--------------------------------+------------------+----------------+--------------+
+
+
